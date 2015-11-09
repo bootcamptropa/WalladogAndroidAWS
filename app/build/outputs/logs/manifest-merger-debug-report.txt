@@ -1,0 +1,218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:15:1-131:12
+	package
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:16:5-30
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:15:11-69
+	android:versionCode
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:21:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:22:5-82
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:22:22-79
+permission#com.amazon.mysampleapp.permission.C2D_MESSAGE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:23:5-24:47
+	android:protectionLevel
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:23:17-77
+uses-permission#com.amazon.mysampleapp.permission.C2D_MESSAGE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:25:5-85
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:25:22-82
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:26:22-77
+application
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:28:5-130:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:31:9-41
+	android:allowBackup
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:29:9-35
+	android:icon
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:30:9-43
+	android:theme
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:33:9-68
+activity#com.mysampleapp.SplashActivity
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:label
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:37:13-45
+	android:configChanges
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:38:13-83
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:36:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:41:27-74
+activity#com.mysampleapp.SignInActivity
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:44:9-49:20
+	android:label
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:46:13-59
+	android:configChanges
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:47:13-83
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:45:13-43
+activity#com.mysampleapp.MainActivity
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:50:9-53:20
+	android:label
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:51:13-41
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:63:9-124
+	android:enabled
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:63:99-121
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:63:18-98
+service#com.amazonaws.mobile.downloader.service.DownloadService
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:65:9-91
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:65:18-88
+receiver#com.amazonaws.mobile.downloader.service.NetworkStateListener
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:67:9-73:20
+	android:enabled
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:69:19-42
+	android:exported
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:68:19-43
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:67:19-94
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:70:13-72:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:71:17-78
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:71:25-76
+provider#com.amazonaws.mobile.downloader.query.DownloadQueueProvider
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:75:9-80:20
+	android:authorities
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:77:13-76
+	android:enabled
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:78:13-35
+	android:exported
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:76:6-80
+provider#android.support.v4.content.FileProvider
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:82:9-90:20
+	android:authorities
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:84:13-74
+	android:grantUriPermissions
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:86:13-47
+	android:exported
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:83:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:87:13-89:66
+	android:resource
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:89:17-63
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:88:17-67
+activity#com.facebook.FacebookActivity
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:97:9-101:75
+	android:label
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:100:13-45
+	android:configChanges
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:99:13-96
+	android:theme
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:101:13-72
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:98:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:103:9-108
+	android:value
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:103:66-105
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:103:20-65
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:110:9-118:20
+	android:exported
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:112:13-36
+	android:permission
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:113:13-73
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:111:13-66
+intent-filter#@string/google_cloud_messaging_package+com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:114:13-117:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:115:17-81
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:115:25-78
+category#@string/google_cloud_messaging_package
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:116:17-83
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:116:27-80
+service#com.mysampleapp.demo.PushListenerService
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:120:9-126:19
+	android:exported
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:121:13-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml:123:13-125:29
+uses-sdk
+INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:23.1.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/hadock/repos/MySampleApp/app/src/main/AndroidManifest.xml
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-base:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] /home/hadock/repos/MySampleApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/AndroidManifest.xml:22:13-58
